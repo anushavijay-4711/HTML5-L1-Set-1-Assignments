@@ -1,0 +1,62 @@
+.title {
+  display: block;
+  padding: 20px;
+  padding: auto;
+  margin: auto;
+  background-color: blanchedalmond;
+}
+
+.logo-image {
+  text-align: center;
+  position: relative;
+  padding: none;
+  float: left;
+  margin: auto;
+  width: 10%;
+}
+
+.header {
+  position: relative;
+  left: -20px;
+  text-align: center;
+}
+
+.form-div {
+  margin-top: 10px;
+  padding: 30px;
+  margin: 0px auto;
+  width: 50%;
+}
+
+.form {
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 50%;
+}
+
+.form-div-header {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+table {
+  margin: 0px auto;
+}
+
+td {
+  width: max-content;
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+}
+
+input[type="submit"] {
+  position: relative;
+  margin: auto;
+  left: 5px;
+  text-align: center;
+  width: 100%;
+}
