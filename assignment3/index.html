@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5-L1 Set 1 Assignment-3</title>
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+  </head>
+  <body>
+    <div class="first-horizontal-block">
+      <img src="./logo.png" />
+      <h1>Awesome Online Videos</h1>
+    </div>
+    <br /><br />
+    <div class="second-horizontal-block">
+      <video id="video" class="video" width="60%">
+        <source src="./SampleVideo_720x480_5mb.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="buttons">
+        <button class="video-buttons" onclick="play()">Play Video</button>
+        <button class="video-buttons" onclick="pause()">Pause Video</button>
+        <script>
+          var video = document.getElementById("video");
+          function play() {
+            video.play();
+          }
+
+          function pause() {
+            video.pause();
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
